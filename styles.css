@@ -1,6 +1,31 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
+body {
+  background-image: url('images/sand.jpg');
+}
+
+header.page-header {
+  background-color: #fff;
+}
+
+h1,h2 {
     color: green;
+    font-family: Arial;
+}
+
+.poem {
+  list-style-type: none;
+}
+
+.info-links {
+  list-style-type: none;
+}
+
+.social-links {
+  list-style-type: none;
+}
+
+.citation ul li{
+  list-style-type: none;
 }

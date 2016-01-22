@@ -3,10 +3,14 @@
 
 body {
   background-image: url('images/sand.jpg');
+  line-height: 1.2em;
+  margin: 20px;
 }
 
 header.page-header {
   background-color: #fff;
+  padding: 15px;
+  border: 5px solid black;
 }
 
 h1,h2 {
@@ -14,8 +18,17 @@ h1,h2 {
     font-family: Arial;
 }
 
+.more-info img {
+  height: 250px;
+  width: auto;
+  display: block;
+  margin: 15px;
+}
+
 .poem {
   list-style-type: none;
+  background-color: #fff;
+  padding: 20px;
 }
 
 .info-links {
@@ -26,6 +39,6 @@ h1,h2 {
   list-style-type: none;
 }
 
-.citation ul li{
+.page-footer ul {
   list-style-type: none;
 }
